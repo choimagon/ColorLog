@@ -1,7 +1,7 @@
 설치방법
-
->pip install git+https://github.com/choimagon/ColorLog.git
-
+```
+pip install git+https://github.com/choimagon/ColorLog.git
+```
 사용방법
 ```
 from colorlog import CP

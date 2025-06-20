@@ -7,9 +7,8 @@
 
 ## 📦 설치 방법
 
-```
+```bash
 pip install git+https://github.com/choimagon/ColorLog.git
-```
 
 ## 🚀 사용 방법
 

@@ -5,13 +5,14 @@
 
 ---
 
-## 📦 설치 방법
+## 설치 방법
 
-```bash
+```
 pip install git+https://github.com/choimagon/ColorLog.git
 ```
 
-## 🚀 사용 방법
+--- 
+## 사용 방법
 
 ```python
 from colorlog import CP
@@ -23,7 +24,7 @@ CP().printB(color='b', alert="중요", line=2)    # 상자 형태의 강조 출�
 
 ---
 
-## 🎨 지원 색상
+## 지원 색상
 
 컬러는 이름 또는 축약형으로 지정할 수 있습니다:
 

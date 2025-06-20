@@ -7,7 +7,7 @@
 
 ## 설치 방법
 
-```
+```bash
 pip install git+https://github.com/choimagon/ColorLog.git
 ```
 
@@ -21,6 +21,8 @@ CP().printc(a=1, b=2)                          # 기본 컬러 출력
 CP().printcb(color='r', msg="볼드 컬러 출력")   # 컬러 + 볼드 출력
 CP().printB(color='b', alert="중요", line=2)    # 상자 형태의 강조 출력 line안해도 됌
 ```
+### 출력 예시 
+<img width="200" alt="스크린샷 2025-06-21 오전 1 47 21" src="https://github.com/user-attachments/assets/5d8fcefd-1287-4cb2-ac01-d6c3405f8fda" />
 
 ---
 

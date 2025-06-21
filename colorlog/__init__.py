@@ -49,3 +49,10 @@ class CP:
 
         content = "\n".join(lines)
         print(f"{c}{linear}{self.reset}{top_bottom}{content}{top_bottom}{c}{linear}{self.reset}")
+    def plag(self, text):
+        """흰색 볼드 텍스트로 상자 출력"""
+        c = self.COLOR_CODES['white']
+        linear = "=" * 25
+        bold_text = f"{self.bold}{text}{self.reset}"
+        print(f"{c}{linear}{self.reset}\n\n{c}{bold_text}{self.reset}\n\n{c}{linear}{self.reset}")
+

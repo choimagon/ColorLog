@@ -24,7 +24,7 @@ from colorlog import CP
 CP().printc(a=1, b=2)                          # 기본 컬러 출력
 CP().printcb(color='r', msg="볼드 컬러 출력")   # 컬러 + 볼드 출력
 CP().printB(color='b', alert="중요", line=2)    # 상자 형태의 강조 출력 line안해도 됌
-CP().cp.plag("start") #플래그임
+CP().plag("start") #플래그임
 ```
 ### 출력 예시 
 <img src="ex.png" width="300"/>

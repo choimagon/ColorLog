@@ -10,6 +10,10 @@
 ```bash
 pip install git+https://github.com/choimagon/ColorLog.git
 ```
+### 지우기
+```
+pip uninstall ColorLog
+```
 
 --- 
 ## 사용 방법
